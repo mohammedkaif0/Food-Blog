@@ -1,0 +1,159 @@
+* {
+    margin: auto;
+    box-sizing: border-box;
+    font-family: sansita Swashed;
+}
+.navbar-expand-lg {
+  margin-bottom: 0px!important;
+  background-color: #121629!important;
+  color: #b8c1ec!important;
+}
+.navbar-expand-lg a:hover {
+  background-color:#eebbc3;
+  color: white;
+  border-radius: 100px;
+}
+p{
+  color: #b8c1ec!important;
+}
+h1 {
+  display: block;
+  color: white !important;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+h2{
+  font-size: 30px;
+  color: #fffffe;
+  text-align: center;
+}
+h3{
+  font-size: 25px;
+  color:#fffffe!important;
+}
+
+.About{
+  background-color: #b8c1ec;
+}
+.Recipes{
+  margin-bottom: 0px!important;
+}
+.header-line{
+  background-color: navyblue!important;
+}
+.footer{
+    background-color: #121629;
+    color: #b8c1ec;
+    text-align: center;
+}
+.col-lg-8 {
+  background-color: #b8c1ec!important;
+}
+.overlay{
+  background-color: #b8c1ec!important;
+}
+.btn {
+  color:black;
+  background-color: #232946!important;
+  border-radius: 50px!important;
+}
+.form-control{
+  border-radius: 50px!important;
+}
+.btn:hover{
+  background-color: #eebbc3!important;
+}
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #232946!important;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+/*gallery*/
+.row {
+  margin-top: 0px;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  background-color: #b8c1ec;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+/*Recipes*/
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.heading {
+  text-align: center!important;
+  padding: 32px!important;
+  background-color:#232946;
+}
