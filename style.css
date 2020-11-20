@@ -114,6 +114,7 @@ h3{
 /*gallery*/
 .row {
   margin-top: 0px;
+  margin-bottom: 0px;
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
