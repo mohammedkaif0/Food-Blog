@@ -175,3 +175,8 @@ h3{
   color: #232946!important;
   font-size: 24px;
 }
+.col a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
