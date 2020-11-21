@@ -168,7 +168,7 @@ h3{
   width: 25%;
   height:25%;
   float: left;
-  margin-right: 0px;
+  margin-left: 0px;
   border-radius: 100px;
 }
 .col p{
@@ -176,7 +176,5 @@ h3{
   font-size: 24px;
 }
 .col a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
