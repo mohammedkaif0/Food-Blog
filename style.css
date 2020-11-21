@@ -165,6 +165,13 @@ h3{
   background-color:#232946;
 }
 .kaif {
-  width: 50%;
-  height:50%;
+  width: 25%;
+  height:25%;
+  float: left;
+  margin-right: 0px;
+  border-radius: 100px;
+}
+.col p{
+  color: #232946!important;
+  font-size: 24px;
 }
